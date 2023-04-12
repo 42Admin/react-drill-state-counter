@@ -4,17 +4,15 @@ function App() {
   const [counter, setCounter] = useState(0);
 
   const handleIncrease = () => {
-      setCounter(counter + 1)
+    // +
   };
 
   const handleDecrease = () => {
-      setCounter(counter - 1)
-     
+    // -
   };
 
   const handleReset = () => {
-    setCounter(counter - counter )
-
+    // 0
   };
 
   return (
